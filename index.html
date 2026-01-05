@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruits Website</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- nevbar start -->
+  <header class="header">
+    <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Fruits Store</a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#features">Features</a>
+      <a href="#categories">categories</a>
+      <a href="#review">review</a>
+    </nav>
+    <div class="icons">
+      <div class="fas fa-bars" id="menu-btn"></div>
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      <div class="fas fa-user" id="login-btn"></div>
+    </div>
+    <form action="" class="search-form">
+      <input type="search" name="" id="search-box" class="search" placeholder="search here.......">
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="img/aple.jpg" alt="">
+        <div class="content">
+          <h3>Apple</h3>
+          <span class="price">Prise: &#8377; 100</span>
+          <span class="quantity">qty : 1</span>
+        </div>
+      </div>
+      <!--  
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="img/strawberry.png" alt="">
+        <div class="content">
+          <h3>Strawberry</h3>
+          <span class="price">Prise: &#8377; 250</span>
+          <span class="quantity">qty : 1</span>
+        </div>
+      </div>
+-->
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="img/kiwii.png" alt="">
+        <div class="content">
+          <h3>Kiwi</h3>
+          <span class="price">Prise: &#8377; 100</span>
+          <span class="quantity">qty : 1</span>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="img/banana.jpg" alt="">
+        <div class="content">
+          <h3>banana</h3>
+          <span class="price">Prise: &#8377; 100</span>
+          <span class="quantity">qty : 1</span>
+        </div>
+      </div>
+      <div class="total">total : &#8377; 300 </div>
+      <a href="#" class="btn">checkout</a>
+    </div>
+    <form action="" class="login-form">
+      <h3>login now</h3>
+      <input type="email" name="" id="" class="box" placeholder="your email">
+      <input type="password" name="" id="" class="box" placeholder="your password">
+      <p>forget your password <a href="#">click here</a></p>
+      <p>don't have an account <a href="#">create now</a></p>
+      <input type="submit" value="login now" name="" id="" class="box" placeholder="your email">
+    </form>
+  </header>
+
+  <!-- Header Section -->
+  <section class="home" id="home">
+    <div class="content">
+      <h3>fresh and <span>organic</span> Fruits for You</h3>
+      <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+      <a href="#" class="btn">shop now</a>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="container" id="products">
+    <h1 class="heading">Our <span>Products</span></h1>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="product">
+          <img src="img/aple.jpg" alt="" class="image">
+          <h3>Apple</h3>
+          <p>upto 45% off</p>
+          <button class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product">
+          <img src="img/strawberry.png" alt="" class="image">
+          <h3>Strawberry</h3>
+          <p>upto 45% off</p>
+          <button class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product">
+          <img src="img/kiwii.png" alt="" class="image">
+          <h3>Kiwi</h3>
+          <p>upto 45% off</p>
+          <button class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product">
+          <img src="img/banana.jpg" alt="" class="image">
+          <h3>Banana</h3>
+          <p>upto 45% off</p>
+          <button class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- features section -->
+  <section class="features" id="features">
+    <h1 class="headiing">Our <span>Features</span></h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="product">
+          <img src="img/fruit-basket.png" alt="" class="image">
+          <h3>Fresh And Organic</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, eum quos amet quo libero magnam voluptate
+            non ullam qui ab cumque,</p>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product">
+          <img src="img/deliver.png" alt="" class="image">
+          <h3>Free Delivery</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, exercitationem quas ut laborum laudantium
+            tempora perspiciatis eum</p>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product">
+          <img src="img/qr.png" alt="" class="image">
+          <h3>Easy Payments</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero omnis corrupti vero adipisci ullam deleniti
+            exercitationem possimus,</p>
+          <a href="#" class="btn">Add To Cart</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- categories section -->
+
+  <section class="categories" id="categories">
+    <h1 class="heading">Types of <span>Fruits</span></h1>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="product">
+          <img src="img/aple.jpg" alt="" class="image">
+          <h3>Fresh Apple</h3>
+          <div class="price">Prise: &#8377; 100</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product">
+          <img src="img/strawberry.png" alt="" class="image">
+          <h3>Fresh Strawberry</h3>
+          <div class="price">Prise: &#8377; 100</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product">
+          <img src="img/kiwii.png" alt="" class="image">
+          <h3>Fresh Kiwi</h3>
+          <div class="price">Prise: &#8377; 100</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product">
+          <img src="img/banana.jpg" alt="" class="image">
+          <h3>Fresh Banana</h3>
+          <div class="price">Prise: &#8377; 100</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- reviwes section -->
+  <section class="review" id="review">
+    <h1 class="heading">Our <span>Review</span></h1>
+    <div class="review-container container">
+      <div class="review-image">
+        <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;">
+          <div id="google-maps-display" style="height:100%; width:100%;max-width:100%;"><iframe
+              style="height:100%;width:100%;border:0;" frameborder="0"
+              src="https://www.google.com/maps/embed/v1/search?q=ayodhya&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+          </div><a class="googlecoder" href="https://www.bootstrapskins.com/themes" id="grab-map-data">premium bootstrap
+            themes</a>
+          <style>
+            #google-maps-display img 
+			{
+              max-height: none;
+              max-width: none !important;
+              background: none !important;
+            }
+          </style>
+        </div>
+      </div>
+      <div class="form-container">
+        <h2>Contact Us</h2>
+        <input type="text" name="" id="" placeholder="Name">
+        <input type="email" name="" id="" placeholder="E-Mail">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Type Your Message Here"></textarea>
+        <a href="#" class="btn btn-primary">Submit</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-light">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-day-time">
+          <div class="row">
+            <div class="col-md-8">
+              <h1>Opening Hours : Mon - Friday : 08AM - 05PM</h1>
+              <h1>Saturday - Sunday : 10:00AM - 08:00PM</h1>
+            </div>
+            <div class="col-lg-4">
+              <div class="phone-no">
+                <a href="tel:+91 945 288 9194"><i class="fa fa-mobile"></i>Call +91 945 288 9194</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <h2>About us</h2>
+            <p>Lorem Ipsum ist einfach Dummy-Text der Druck- und Satzindustrie. Lorem Ipsum war der Standard der Branche
+              Lorem Ipsum ist einfach Dummy-Text der Druck- und Satzindustrie. Lorem Ipsum war der Standard der Branche
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h2>Information</h2>
+            <ul class="address1">
+              <li><i class="fa fa-map-marker"></i>Lorem Ipsum 132 xyz Lorem Ipsum</li>
+              <li><i class="fa fa-envelope"></i><a href="mailto:#">vandana.21smiles@gmail.com</a></li>
+              <li><i class="fa fa-mobile" aria-hidden="true"></i><a href="tel:12 34 56 78 90">+91 945 288 9194</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h2>Follow us</h2>
+            <ul class="social-icon">
+              <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5">
+            <p class="copyright text-uppercase text-dark">Copyright © 2024
+            </p>
+          </div>
+          <div class="col-sm-7">
+            <ul class="last">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#categories">Categories</a></li>
+              <li><a href="#review">Review</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
